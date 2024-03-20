@@ -15,14 +15,15 @@ body {
 }
 
 img {
-    width: 900px;
-    height: 700px;
+    width: 100%;
+    height: auto;
 }
 
 .header {
     background-color: rgba(243, 188, 188, 0.5);
     padding: 25px 0;
     margin-top: 30px;
+    width: 100%;
 }
 
 h1 {
@@ -55,13 +56,16 @@ figcaption {
     text-align: center;
     font-style: italic;
     font-size: 18px;
+    width: 100%;
 }
 
 #tribute-info {
     background-color: rgb(241, 167, 192);
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     max-width: 800px;
+    min-width: 350px;
     padding: 30px 60px;
     text-align: justify;
 }
@@ -82,12 +86,13 @@ figcaption {
 
 blockquote {
     font-style: italic;
-    max-width: 545px;
+    max-width: 800px;
     margin: 0 auto 50px auto;
     text-align: left;
-    font-family: 'Satisfy', 'cursive';
+    font-family: 'cursive';
     font-size: 30px;
     font-weight: 600;
+    width: 100%
 }
 
 figcaption, h3 {
