@@ -1,6 +1,5 @@
 html {
     font-size: 10px;
-    max-width: 100%vw;
 }
 
 body {
@@ -29,10 +28,8 @@ img {
 
 h1 {
     color: rgb(235, 75, 155);
-    display: block;
     margin-bottom: 0;
     font-weight: bold;
-    text-align: center;
     font-family: 'Mate SC', serif;
     font-size: 50px;
 }
@@ -86,13 +83,10 @@ figcaption {
 }
 
 blockquote {
-    max-width: 100%vw;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    font-family: 'cursive';
+    text-align: center;
+    font-family: cursive;
     font-size: 30px;
     font-weight: 600;
-    width: 100%
 }
 
 figcaption, h3 {
