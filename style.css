@@ -23,7 +23,7 @@ img {
     background-color: rgba(243, 188, 188, 0.5);
     padding: 25px 0;
     margin-top: 30px;
-    width: 100%vw;
+    max-width: 100%vw;
 }
 
 h1 {
@@ -84,14 +84,17 @@ figcaption {
 
 blockquote {
     text-align: center;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     font-weight: 600;
+    max-width: 100%vw;
+    min-width: 601px;
 }
 
 figcaption, h3 {
     color: black;
     font-size: 18px;
+    max-width: 100%vw;
 }
 
 a:link {
